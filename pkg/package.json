@@ -1,0 +1,18 @@
+{
+  "name": "exports",
+  "type": "module",
+  "collaborators": [
+    "Jonty Leslie <jontyleslie@gmail.com>"
+  ],
+  "version": "0.1.0",
+  "files": [
+    "exports_bg.wasm",
+    "exports.js",
+    "exports.d.ts"
+  ],
+  "main": "exports.js",
+  "types": "exports.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
